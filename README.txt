@@ -1,20 +1,11 @@
-This is a website that shows all of my favourite movies.
+# Movie Trailer Website
 
-To access the website, firstly open a terminal window and change directory 
-to this file (movies). 
-Enter the command: python entertainment_center.py. The fresh_tomatoes.py 
-file will dynamically generate the webpage. 
-Open fresh_tomatoes.html in your favourite web browser. Click on the movie 
-posters to see its trailer.
+In this project I built the server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.
 
-MODIFICATIONS:
+In order to access it in your browser:
 
-	In fresh_tomatoes.py
+* click in the following link redirecting to my [Github Pages](http://bjlaa.github.io/movie-trailer-website) page for this project.
 
-- Header:  colour, font size and height of the banner,
-- Layout: two columns instead of three (I modified the class col-lg-4 by col-lg-6),
-- added the storyline and the actors to be displayed below the title.
+or
 
-	In media.py: created new property movie_actors in Movie().
-
-	In center.py: added actors names.
+* download the zip file of my project on your computer and open index.html in your favorite browser
